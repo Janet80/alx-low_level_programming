@@ -1,14 +1,23 @@
-#include <stdio.h>
 
+
+#include "main.h"
 /**
- * main - Entry point of the program
+ * main - Prints "_putchar" followed by a new line.
  *
- * Description: Prints "_putchar" followed by a new line
- * Return: 0 (Success)
+ * Return: Always 0.
  */
 int main(void)
 {
-	printf("_putchar\n");
+	_putchar('H');
+	_putchar('o');
+	_putchar('l');
+	_putchar('b');
+	_putchar('e');
+	_putchar('r');
+	_putchar('t');
+	_putchar('o');
+	_putchar('n');
+	_putchar('\n');
+
 	return (0);
 }
-
